@@ -1,0 +1,195 @@
+/* CSS code architecture is organized in this file to correspond to index.html then image.html then advanced.html and from top of webpage to bottom of webpage */
+
+/* Global styling */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.links {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  font-size: .75rem;
+  padding: 0rem 2rem;
+}
+
+.logo {
+  width: 17rem;
+  height: auto;
+  margin-bottom: 1.2rem;
+}
+
+/* Google Search Page */
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(20vh);
+}
+
+#sub {
+  display: grid;
+  grid-template-columns: 1fr max-content max-content 1fr;
+  gap: 2rem 0.5rem;
+}
+
+#sub input[type="text"] {
+  grid-column: 1 / 5;
+  width: 30rem;
+}
+
+#google-search {
+  grid-column: 2 / 3;
+}
+
+#feeling-lucky {
+  grid-column: 3 / 4;
+}
+
+.default-input {
+  outline: none;
+  border: 2px solid rgb(243, 243, 243);
+  border-radius: 5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.default-input:hover,
+.default-input:active,
+.default-input:focus {
+  outline: none;
+  box-shadow: 0px 4px 4px rgb(210, 210, 210);
+}
+
+.default-search {
+  outline: none;
+  color: rgb(100, 100, 100);
+  background-color: rgb(243, 243, 243);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.default-search:hover {
+  outline: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(100, 100, 100);
+}
+
+.default-search:active,
+.default-search:focus {
+  outline: none;
+  border: 2px solid rgb(59, 123, 229);
+  border-radius: 4px;
+}
+
+/* Google Image Search Page */
+
+#logo-subtitle {
+  color: rgb(86, 144, 243);
+  transform: translate(7rem, -1.2rem);
+}
+
+#image-search {
+  grid-column: 2 / 4;
+}
+
+/* Advanced Search Page */
+
+#adv-navbar {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+#logo-small {
+  width: 6rem;
+  height: auto;
+}
+
+#adv-title {
+  color: rgb(202, 64, 49);
+  font-size: 1.3rem;
+  margin-left: 2rem;
+  padding: .5rem;
+}
+
+hr + p {
+  margin-left: 2rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: max-content minmax(20rem, 5rem) max-content;
+  column-gap: 2.4rem;
+  margin-left: 2rem;
+}
+
+#left-column {
+  display: grid;
+}
+
+#left-column div {
+  font-size: .8rem;
+}
+
+#middle-column {
+  display: grid;
+  gap: 1rem 0;
+}
+
+#middle-column input {
+  font-size: .8rem;
+  color: rgb(41, 41, 41);
+  width: 20rem;
+  border: 1px solid rgb(243, 243, 243);
+  padding: 6px;
+}
+
+#middle-column input:focus {
+  outline: none;
+  border: 1px solid rgb(59, 123, 229);
+}
+
+#middle-column input:last-child {
+  width: 10rem;
+}
+
+#right-column {
+  display: grid;
+  gap: 1rem 0;
+}
+
+#right-column div {
+  font-size: .6rem;
+  color: rgb(100, 100, 100);
+}
+
+.example-text {
+  font-size: .5rem;
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(100, 100, 100);
+}
+
+.adv-input:focus {
+  outline: none;
+  border: 1px solid rgb(59, 123, 229);
+}
+
+#adv-search[type="submit"] {
+  color: rgb(255, 255, 255);
+  background-color: rgb(86, 144, 243);
+  border-radius: 4px;
+  border: 2px solid rgb(59, 123, 229);
+  padding: 0.5rem 1.5rem;
+  justify-self: right;
+}

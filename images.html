@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Google Image Search</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="links" href="index.html">Google Search</a>
+      <a class="links" href="advanced.html">Google Advanced Search</a>
+    </div>
+    <div id="main">
+      <img class="logo" src="GoogleLogo.png" alt="Google Logo">
+      <span id="logo-subtitle">Images</span>
+      <form id="sub" action="https://google.com/search">
+        <input type="hidden" value="isch" name="tbm">
+        <input class="default-input" type="text" name="q">
+        <input class="default-search" id="image-search" type="submit" value="Google Image Search">
+      </form>
+    </div>
+  </body>
+</html>

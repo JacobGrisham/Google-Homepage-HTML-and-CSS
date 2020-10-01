@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Google Advanced Search</title>
+  </head>
+  <body>
+    <div id="adv-navbar">
+      <img id="logo-small" src="GoogleLogo.png" alt="Google Logo">
+      <div>
+        <a class="links" href="index.html">Google Search</a>
+        <a class="links" href="images.html">Google Image Search</a>
+      </div>
+    </div>
+    <h1 id="adv-title">Advanced Search</h1>
+    <hr>
+    <p>Find pages with...</p>
+    <div id="grid">
+      <div id="left-column">
+        <div>all these words:</div>
+        <div>this exact word or phrase:</div>
+        <div>any of the words:</div>
+        <div>none of these words:</div>
+      </div>
+      <form id="middle-column" id="adv-options" action="https://google.com/search">
+          <input type="text" name="as_q">
+          <input type="text" name="as_epq">
+          <input type="text" name="as_oq">
+          <input type="text" name="as_eq">
+          <input id="adv-search" type="submit" value="Advanced Search">
+      </form>
+      <div id="right-column">
+        <div>Type the important words: <span class="example-text">tricolor rat terrier</span></div>
+        <div>Put exact words in quotes: <span class="example-text">"rat terrier"</span></div>
+        <div>Type OR between all the words you want: <span class="example-text">miniature OR standard</span></div>
+        <div>Put a minus sign just before words you don't want: <span class="example-text">-rodent, -"Jack Russell"</span></div>
+      </div>
+    </div>
+  </body>
+</html>
