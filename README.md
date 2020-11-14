@@ -4,6 +4,7 @@
 - [Search](https://cs50.harvard.edu/web/2020/projects/0/search/): Reverse engineered the front-end for Google Search, Google Image Search, and Google Advanced Search.
 - I wrote all the code in this repository.
 
+## Walkthrough on Youtube
 [![Search Demo](https://img.youtube.com/vi/EmUotaFwmRc/0.jpg)](https://www.youtube.com/watch?v=EmUotaFwmRc)
 
 ## 💡Lessons Learned
