@@ -5,7 +5,7 @@
 - I wrote all the code in this repository.
 
 ## 🖥 Walkthrough on Youtube
-[<img src="https://img.youtube.com/vi/EmUotaFwmRc/maxresdefault.jpg" width="100%">](https://youtu.be/EmUotaFwmRc)
+[<img src="https://img.youtube.com/vi/EmUotaFwmRc/hqdefault.jpg" width="100%">](https://youtu.be/EmUotaFwmRc)
 
 ## 💡Lessons Learned
 - Deconstructing website functionality
